@@ -6,6 +6,9 @@ font-family: 'Open Sans';
 List-style: none;
 text-decoration: none;
 scroll-behavior: smooth;
+-webkit-user-select: none; /* Safari */
+-ms-user-select: none; /* IE 10 and IE 11 */
+user-select: none; /* Standard syntax */
 }
 .open-sans google-font{
   font-family: "Open Sans", serif;
@@ -47,10 +50,6 @@ scroll-behavior: smooth;
     color: #111111;
     text-decoration: none;
 }
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
-
 a:hover {
   color: #111111;
     text-decoration:none; 
